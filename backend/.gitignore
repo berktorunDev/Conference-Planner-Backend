@@ -1,0 +1,41 @@
+# Spring Boot
+target/
+build/
+.gradle/
+.idea/
+*.iml
+*.ipr
+*.iws
+.gradle
+gradle-wrapper.jar
+gradle-wrapper.properties
+out/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+release.properties
+settings.xml
+
+# Logs
+log/
+*.log
+*.log.*
+logs/
+
+# IDE
+*.class
+*.jar
+*.war
+*.ear
+*.class
+*.code-workspace
+*.project
+*.classpath
+/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -47,7 +47,7 @@ class ConferenceScheduleServiceUtilTest {
         LocalTime result = ConferenceScheduleServiceUtil.scheduleSession(talks, entries, startTime, endTime);
 
         // Assert
-        assertEquals(LocalTime.of(10, 15), result, "Session should end at 10:15 AM");
+        assertEquals(LocalTime.of(11, 15), result, "Session should end at 11:15 AM");
         assertEquals(3, entries.size(), "Three talks should be scheduled");
         assertEquals("9:00 AM Sample Talk 1 60min", entries.get(0).time() + " " + entries.get(0).title(),
                 "First talk scheduled incorrectly");

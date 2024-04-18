@@ -21,7 +21,7 @@ Before installing the project, ensure you have the following software installed 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/conference-planner-api.git
+   git clone https://github.com/berktorunDev/Conference-Planner-Backend.git
 
 2. **Navigate to the project directory::**
 

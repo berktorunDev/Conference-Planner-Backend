@@ -38,6 +38,10 @@ Before installing the project, ensure you have the following software installed 
    ```bash
    mvn spring-boot:run
 
+## Project Structure
+Basically project architecure like below:
+![Project Structure](backend/conference_planner_backend_flow.png)
+
 ## Usage
 
 To use the Conference Planner API, make sure the application is up and running as detailed in the [Getting Started](#getting-started) section. For interacting with the API and to see all available endpoints with their expected parameters and responses, use the Swagger UI.
